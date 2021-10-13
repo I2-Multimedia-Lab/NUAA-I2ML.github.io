@@ -1,0 +1,432 @@
+﻿<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8"/>
+    <meta name="keywords" content=""/>
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- Custom Theme files -->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <!-- font-awesome icons -->
+    <link href="css/fontawesome-all.min.css" rel="stylesheet">
+    <!-- //Custom Theme files -->
+    <!-- online-fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet">
+    <!-- //online-fonts -->
+</head>
+<body>
+<div class="sidenav">
+
+    <!-- header -->
+    <header>
+        <!--老版本
+        <div class="container-fluid px-lg-5 ">
+            <nav class="mnu mx-auto">
+                <label for="drop" class="toggle">Menu</label>
+                <input type="checkbox" id="drop">
+                <ul class="menu">
+                    <li class="mt-sm-3"><a href="index.html">Home</a></li>
+                    <li class="mt-sm-3"><a href="#about" class="scroll">About</a></li>
+                    <li class="mt-sm-3"><a href="#services" class="scroll">Members</a></li>
+                    <li class="mt-sm-3"><a href="#gallery" class="scroll">Researches</a></li>
+                    <li class="mt-sm-3"><a href="#news" class="scroll">News</a></li>
+                    <li class="mt-sm-3"><a href="#contact" class="scroll">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        -->
+        <!--新版本-->
+        <input type="checkbox" id="nav-toggle">
+        <nav class="nav">
+            <label for="nav-toggle" class="nav-toggle" onclick>目录</label>
+            <ul class="menu">
+                <li class="mt-sm-3"><a href="#about" class="scroll">About</a></li>
+                <li class="mt-sm-3"><a href="#services" class="scroll">Members</a></li>
+                <li class="mt-sm-3"><a href="#gallery" class="scroll">Researches</a></li>
+                <li class="mt-sm-3"><a href="#publications" class="scroll">Publications</a></li>
+                <li class="mt-sm-3"><a href="#news" class="scroll">News</a></li>
+                <li class="mt-sm-3"><a href="#contact" class="scroll">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+</div>
+<div class="main" id="about">
+    <div class="banner-text-w3ls">
+        <div class="container">
+            <div class="side_top">
+                <img src="images/logo.jpg" alt="news image" class="img-fluid navimg">
+            </div>
+            <div class="mx-auto text-left">
+                <h2>I2ML
+                    <br>INTRODUCTION</h2>
+                <p class="banp mt-5">The Immersive and Interactive Multimedia Laboratory (I2ML) is affiliated with
+                    College of Computer Science and Technology/ College of Artificial Intelligence, Nanjing University
+                    of Aeronautics and Astronautics, Nanjing, China. This lab conducts research in the areas of
+                    Image/Video Processing, Computer Vision, 3D Vision, Machine learning, etc. </p>
+                <p class="banp mt-5">Use wechat search <B>I2ML</B> to subscribe us</p>
+                <a class="btn btn-primary mt-lg-5 mt-3 agile-link-bnr" href="#services" role="button">Learn More</a>
+            </div>
+        </div>
+    </div>
+    <!-- Group Members -->
+    <section class="slide-wrapper" id="services">
+        <div class="services">
+            <h3 class="w3_head mb-5">Group Members</h3>
+            <div class="row service_w3top mt-5">
+                <div class="col-lg-6">
+                    <h5 class="classify">Faculty Member</h5>
+                    <div class="d-flex services-box">
+                        <div class="icon" id="M0">
+                            <span class="fa fa-pencil"></span>
+                        </div>
+                        <div class="service-content">
+                            <h4>Pan Gao</h4>
+                            <p>
+                                I am currently an Associate Professor at the College of Computer Science and Technology, Nanjing University of Aeronautics and Astronautics, Nanjing, China. I received my PhD degree in Electronic Engineering from University of Southern Queensland, Toowoomba, Australia, luckily supervised by Prof. Wei Xiang and Prof. John Billingsley. During my PhD study, I spent two wonderful months as a visiting student at Charles Sturt University, Bathurst, Australia, working with Prof. Manoranjan Paul. From 2018 to 2019, I was fortunate enough to be a member of V-SENSE project, at Trinity College Dublin, Ireland, performing research in immersive multimedia processing under the supervision of Prof. Aljosa Smolic. My current research interests include Image Processing/Analysis, Deep Learning, Artificial Intelligence.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-20">
+                    <h5 class="classify2">Current Students</h5>
+
+                    <div class="d-flex services-box">
+                        <div class="icon" id="M2">
+                            <span class="fa fa-pencil"></span>
+                        </div>
+                        <!-- .Icon ends here -->
+                        <div class="service-content">
+                            <h4>Cheng Zhang</h4>
+                            <p>
+                                <B>Research area:</B>Adversarial Machine Learning.
+                            </p>
+                        </div>
+                        <!-- .Service-content ends here -->
+                    </div>
+
+                    <div class="d-flex services-box">
+                        <div class="icon" id="M4">
+                            <span class="fa fa-pencil"></span>
+                        </div>
+                        <!-- .Icon ends here -->
+                        <div class="service-content">
+                            <h4>Xinlang Chen</h4>
+                            <p>
+                                <B>Research area:</B>Visual saliency prediction on 360 images, deep learning.
+                            </p>
+                        </div>
+                        <!-- .Service-content ends here -->
+                    </div>
+                    <!-- .Services-box ends here -->
+                    <div class="d-flex services-box">
+                        <div class="icon" id="M5">
+                            <span class="fa fa-pencil"></span>
+                        </div>
+                        <!-- .Icon ends here -->
+                        <div class="service-content">
+                            <h4>Haoyue Tian</h4>
+                            <p>
+                                <B>Research area:</B>Video compression encoding with deep learning.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex services-box">
+                        <div class="icon" id="M6">
+                            <span class="fa fa-pencil"></span>
+                        </div>
+                        <!-- .Icon ends here -->
+                        <div class="service-content">
+                            <h4>Kang You</h4>
+                            <p>
+                                <B>Research area:</B>Lossy point cloud geometry compression using deep learning.
+                            </p>
+                        </div>
+                        <!-- .Service-content ends here -->
+                    </div>
+                    <!-- .Services-box ends here -->
+                    <div class="d-flex services-box">
+                        <div class="icon" id="M7">
+                            <span class="fa fa-pencil"></span>
+                        </div>
+                        <!-- .Icon ends here -->
+                        <div class="service-content">
+                            <h4>Jinsong Shi</h4>
+                            <p>
+                                <B>Research area:</B>Image quality assement Deep learning.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex services-box">
+                        <div class="icon" id="M8">
+                            <span class="fa fa-pencil"></span>
+                        </div>
+                        <!-- .Icon ends here -->
+                        <div class="service-content">
+                            <h4>Zihao Li</h4>
+                            <p>
+                                <B>Research area:</B>Classification and segmentation of 3D point cloud objects.
+                            </p>
+                        </div>
+                        <!-- .Service-content ends here -->
+                    </div>
+                    <!-- .Services-box ends here -->
+                    <div class="d-flex services-box">
+                        <div class="icon" id="M9">
+                            <span class="fa fa-pencil"></span>
+                        </div>
+                        <!-- .Icon ends here -->
+                        <div class="service-content">
+                            <h4>Shanshan Li</h4>
+                            <p>
+                                <B>Research area:</B>Reinforcement Learning in 3D Point Cloud.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-20">
+                    <h5 class="classify2">Alumni</h5>
+                    <div class="d-flex services-box">
+                        <div class="icon" id="M1">
+                            <span class="fa fa-pencil"></span>
+                        </div>
+                        <!-- .Icon ends here -->
+                        <div class="service-content">
+                            <h4>Tiantian Zhu</h4>
+                            <p>
+                                <B>Research area:</B>View Synthesis and Dis-occlusion Filling.
+                            </p>
+                        </div>
+                        <!-- .Service-content ends here -->
+                    </div>
+                    <div class="d-flex services-box">
+                        <div class="icon" id="M3">
+                            <span class="fa fa-pencil"></span>
+                        </div>
+                        <!-- .Icon ends here -->
+                        <div class="service-content">
+                            <h4>Pengwei Zhang</h4>
+                            <p>
+                                <B>Research area:</B>Quality Assessment for Omnidirectional Video/Image.
+                            </p>
+                        </div>
+                        <!-- .Service-content ends here -->
+                    </div>
+                </div>
+            </div>
+            <!-- .Col ends here -->
+        </div>
+        <!-- .Services ends here -->
+    </section>
+    <!-- //services -->
+
+    <!-- news -->
+    <div class="news" id="news">
+        <div class="text-left">
+            <h3 class="w3_head mb-5">Recent News</h3>
+        </div>
+        <div class="row news-grids">
+            <div class="col-lg-6 news-grids-left">
+                <div class="news_top">
+                    <img src="images/congratulations.jpg" alt="news image" class="img-fluid">
+                    <h4>Congrats: Paper Publications</h4>
+                    <p class="newsp">Congratulations to our team member Kang You for the acceptance of a paper in ACM Multimedia Asia, 2021. </p>
+                </div>
+            </div>
+            <div class="col-lg-6 news-grids-middle">
+                <div class="news_top">
+                    <img src="images/congratulations.jpg" alt="news image" class="img-fluid">
+                    <h4>Congrats: Paper Publications</h4>
+                    <p class="newsp">Congratulations to our team member Cheng Zhang for the acceptance of a paper in International Conference on Computer Vision (ICCV) Workshop on Adversarial Robustness In the Real World, 2021. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //news -->
+
+    <!-- Gallery -->
+    <section class="gallery" id="gallery">
+        <div class="container py-lg-5">
+            <h3 class="w3_head mb-5">Our Researches</h3>
+            <div class="row news-grids mt-lg-5 mt-4 text-center">
+                <div class="col-md-6 gal-img">
+                    <a href="#gal1"><img src="images/g2.jpg" alt="news image" class="img-fluid"></a>
+                    <p class="mt-4">Pan Gao, Pengwei Zhang, Aljosa Smolic, Quality assessment for omnidirectional video:
+                        a spatio-temporal distortion modeling approach, IEEE Transactions on Multimedia, 2021.</p>
+                </div>
+                <div class="col-md-6 proj-1 gal-img">
+                    <a href="#gal2"><img src="images/g3.jpg" alt="news image" class="img-fluid"></a>
+                    <p class="mt-4">Cheng Zhang, Pan Gao, Countering Adversarial Examples: Combining Input
+                        Transformation and Noisy Training, International Conference on Computer Vision (ICCV) Workshop
+                        on Adversarial Robustness In the Real World, 2021.</p>
+                </div>
+                <div class="col-md-6 mt-5 gal-img">
+                    <a href="#gal3"><img src="images/g4.jpg" alt="news image" class="img-fluid"></a>
+                    <p class="mt-4">Cheng Zhang, Pan Gao, Defending Adversaries Using Unsupervised Feature Clustering
+                        VAE, International Conference on Machine Learning (ICML) Workshop on Adversarial Machine
+                        Learning, 2021.</p>
+                </div>
+                <div class="col-md-6 mt-5 gal-img">
+                    <a href="#gal4"><img src="images/g5.jpg" alt="news image" class="img-fluid"></a>
+                    <p class="mt-4">Kang You, Pan Gao, Patch-Based Deep Autoencoder for Point Cloud Geometry
+                        Compression, ACM Multimedia Asia, Gold Coast, Australia, 2021.</p>
+                </div>
+            </div>
+        </div>
+        <!-- popup-->
+        <div id="gal1" class="pop-overlay animate">
+            <div class="popup">
+                <img src="images/g2.jpg" alt="Popup Image" class="img-fluid"/>
+                <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat
+                    dolor.</p>
+                <img src="images/g2.jpg" alt="Popup Image" class="img-fluid"/>
+                <img src="images/g2.jpg" alt="Popup Image" class="img-fluid"/>
+                <a class="close" href="#gallery">&times;</a>
+            </div>
+        </div>
+        <!-- //popup -->
+        <!-- popup-->
+        <div id="gal2" class="pop-overlay animate">
+            <div class="popup">
+                <img src="images/g3.jpg" alt="Popup Image" class="img-fluid"/>
+                <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat
+                    dolor.</p>
+                <a class="close" href="#gallery">&times;</a>
+            </div>
+        </div>
+        <!-- //popup -->
+        <!-- popup-->
+        <div id="gal3" class="pop-overlay animate">
+            <div class="popup">
+                <img src="images/g4.jpg" alt="Popup Image" class="img-fluid"/>
+                <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat
+                    dolor.</p>
+                <a class="close" href="#gallery">&times;</a>
+            </div>
+        </div>
+        <!-- //popup3 -->
+        <!-- popup-->
+        <div id="gal4" class="pop-overlay animate">
+            <div class="popup">
+                <img src="images/g5.jpg" alt="Popup Image" class="img-fluid"/>
+                <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat
+                    dolor.</p>
+                <a class="close" href="#gallery">&times;</a>
+            </div>
+        </div>
+        <!-- //popup -->
+    </section>
+
+    <div class="news" id="publications">
+        <div class="text-left">
+            <h3 class="w3_head mb-5">Publications</h3>
+        </div>
+        <ul class="paperlist">
+            <h5>Journal Papers</h5>
+            <li><span style="font-size: 25px; font-weight: bold">· </span><B>Pan Gao</B>, Tiantian Zhu, Manoranjan Paul, Disocclusion Filling for Depth-Based View Synthesis With Adaptive Utilization of Temporal Correlations, <B>Journal of Visual Communication and Image Representation</B>, 78:1-14, Jul. 2021. &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">pdf</a>&nbsp;&nbsp;&nbsp;&nbsp;<a style="color: red" href="https://github.com/I2-Multimedia-Lab/adaptive-hole-filling">code</a></li>
+            <li><span style="font-size: 25px; font-weight: bold">· </span><B>Pan Gao</B>, Pengwei Zhang, Aljosa Smolic, Quality assessment for omnidirectional video: a spatio-temporal distortion modeling approach, <B>IEEE Transactions on Multimedia</B>, 2021. &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">pdf</a>&nbsp;&nbsp;&nbsp;&nbsp;<a style="color: red" href="https://github.com/I2-Multimedia-Lab/360-video-experimental-platform">code</a></li>
+            <li><span style="font-size: 25px; font-weight: bold">· </span>Dong Liang, Bing Kang, Xinyu Liu, <B>Pan Gao</B>, Xiaoyang Tan, Shun’ichi Kaneko, Cross-scene foreground segmentation with supervised and unsupervised model communication, <B>Pattern Recognition</B>, 117:1-12, Sep. 2021. &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">pdf</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">code</a></li>
+            <li><span style="font-size: 25px; font-weight: bold">· </span><B>Pan Gao</B>, Aljosa Smolic, Occlusion-aware depth map coding optimization using allowable depth map distortions, <B>IEEE Transactions on Image Processing</B>, 2019, 28(11): 5266-5280. &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">pdf</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">code</a></li>
+            <li><span style="font-size: 25px; font-weight: bold">· </span><B>Pan Gao</B>, Manoranjan Paul, Rate-Distortion Optimal Joint Texture and Depth Map Coding for 3-D Video Streaming, <B>IEEE Transactions on Multimedia</B>, 2020, 22(3): 610-625. &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">pdf</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">code</a></li>
+            <li><span style="font-size: 25px; font-weight: bold">· </span><B>Pan Gao</B>, W. Xiang, and D. Liang, Texture-distortion-constrained joint source-channel coding of multi-view video plus depth based 3-D video, <B>IEEE Transactions on Circuits and Systems for Video Technology</B>, 2019, 29(11): 3236-3340. &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">pdf</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">code</a></li>
+            <li><span style="font-size: 25px; font-weight: bold">· </span>Wei Xiang, <B>Pan Gao</B>, Qiang Peng, Robust multiview three-dimensional video communications based on distributed video coding, <B>IEEE Systems Journal</B>, 2017, 11(4): 2456 – 2466. &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">pdf</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">code</a></li>
+            <li><span style="font-size: 25px; font-weight: bold">· </span><B>Pan Gao</B>, Q. Peng, W. Xiang, Analysis of packet-loss-induced distortion in view synthesis prediction-based 3-D video coding, <B>IEEE Transactions on Image Processing</B>, 2017, 26(6): 2781–2796. &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">pdf</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">code</a></li>
+            <li><span style="font-size: 25px; font-weight: bold">· </span><B>Pan Gao</B>, Wei Xiang, Disparity vector correction for view synthesis prediction-based 3-D video transmission, <B>IEEE Transactions on Multimedia</B>, 2015, 16(7): 1797-1808. &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">pdf</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">code</a></li>
+            <li><span style="font-size: 25px; font-weight: bold">· </span><B>Pan Gao</B>, Qiang Peng, Wei Xiang, Error-resilient multi-view video coding using Wyner-Ziv techniques, <B>Multimedia Tools and Applications</B>, 2015, 74(17):  7957-7982. &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">pdf</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">code</a></li>
+            <li><span style="font-size: 25px; font-weight: bold">· </span><B>Pan Gao</B>, Wei Xiang, Rate-distortion optimized mode switching for error-resilient multi-view video plus depth based 3-D video coding, <B>IEEE Transactions on Multimedia</B>, 2014, 16(7): 1797-1808. &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">pdf</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">code</a></li>
+            <li><br></li>
+        </ul>
+        <input type="checkbox" id="contTab" checked="checked" class="tabbed">
+        <div id="cont"><br>
+            <ul class="paperlist">
+                <h5>Conference Papers</h5>
+                <li><span style="font-size: 25px; font-weight: bold">· </span><B>Kang You</B>, <B>Pan Gao</B>, Patch-Based Deep Autoencoder for Point Cloud Geometry Compression, <B>ACM Multimedia Asia, Gold Coast</B>, Australia, 2021. &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">pdf</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">code</a></li>
+                <li><span style="font-size: 25px; font-weight: bold">· </span><B>Cheng Zhang</B>, <B>Pan Gao</B>, Countering Adversarial Examples: Combining Input Transformation and Noisy Training, <B>International Conference on Computer Vision (ICCV) Workshop on Adversarial Robustness In the Real World</B>, 2021. &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">pdf</a>&nbsp;&nbsp;&nbsp;&nbsp;<a style="color: red" href="https://github.com/I2-Multimedia-Lab/Countering-Adversarial-Examples-Using-JPEG-Compression">code</a></li>
+                <li><span style="font-size: 25px; font-weight: bold">· </span><B>Cheng Zhang</B>, <B>Pan Gao</B>, Defending Adversaries Using Unsupervised Feature Clustering VAE, <B>International Conference on Machine Learning (ICML)  Workshop on Adversarial Machine Learning</B>, 2021 &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">pdf</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">code</a></li>
+                <li><span style="font-size: 25px; font-weight: bold">· </span><B>Xinlang Chen</B>, <B>Pan Gao</B>, Ran Wei, Visual saliency prediction on 360 degree images with CNN, <B>IEEE Int. Conf. Multimedia and Expo Workshop</B>, Shenzhen, China, Jul. 2021, pp. 1-6. &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">pdf</a>&nbsp;&nbsp;&nbsp;&nbsp;<a style="color: red" href="https://github.com/I2-Multimedia-Lab/visual-saliency-prediction-on-360-degree-images">code</a></li>
+                <li><span style="font-size: 25px; font-weight: bold">· </span>Emin Zerman, Cagri Ozcinar, <B>Pan Gao</B>, Aljosa Smolic, Textured mesh vs coloured point cloud: A subjective study for volumetric video compression, <B>2020 Twelfth International Conference on Quality of Multimedia Experience (QoMEX)</B>, pp. 1-6. &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">pdf</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">code</a>&nbsp;&nbsp;&nbsp;<a style="color: #6f42c1" href="https://v-sense.scss.tcd.ie/research/6dof/quality-assessment-for-fvv-compression/">dataset</a></li>
+                <li><span style="font-size: 25px; font-weight: bold">· </span><B>Tiantian Zhu</B>, <B>Pan Gao</B>, An improved Gaussian mixture model based hole-filling algorithm exploiting depth information, <B>IEEE Int. Conf. Visual Communications and Image Processing (VCIP)</B>, Sydney, Australia, 2019, pp. 1-4. &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">pdf</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">code</a></li>
+                <li><span style="font-size: 25px; font-weight: bold">· </span><B>Pengwei Zhang</B>, <B>Pan Gao</B>, Quality assessment for omnidirectional video with consideration of temporal distortion variations, <B>IEEE Int. Conf. Visual Communications and Image Processing (VCIP)</B>, Sydney, Australia, 2019, pp. 1-4. &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">pdf</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">code</a></li>
+                <li><span style="font-size: 25px; font-weight: bold">· </span>Emin Zerman, <B>Pan Gao</B>, Cagri Ozcinar,  Aljosa Smolic, “Subjective and objective quality assessment for volumetric video compression”, <B>IS&T/SPIE International Symposium on Electronic Imaging, Image Quality and System Performance XVI</B>, Burlingame, California, USA, 2019. &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">pdf</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">code</a></li>
+                <li><span style="font-size: 25px; font-weight: bold">· </span><B>Pan Gao</B>, C. Ozcinar, and A. Smolic, “Optimization of occlusion-inducing depth pixels in 3-D video coding,” <B>IEEE Int. Conf. Image Processing (ICIP) 2018</B>, Athens, Greece, Oct. 2018, pp. 3608-3612. &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">pdf</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">code</a></li>
+                <li><span style="font-size: 25px; font-weight: bold">· </span><B>Pan Gao</B>, W. Xiang, and Manoranjan Paul, “Joint texture and depth map coding for error-resilient 3-D video transmission,” <B>IEEE Int. Conf. Image Processing (ICIP) 2017</B>, Beijing, China, Spet. 2017, pp. 1905-1909. &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">pdf</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">code</a></li>
+                <li><span style="font-size: 25px; font-weight: bold">· </span><B>Pan Gao</B>, W. Xiang, and B. Wang, “Optimal mode selection and channel coding for 3-D video streaming over the Internet,” <B>IEEE Int. Conf. Multimedia and Expo Workshops (ICMEW) 2017</B>, Hong Kong, Jul. 2017, pp. 31-36. &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">pdf</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">code</a></li>
+                <li><span style="font-size: 25px; font-weight: bold">· </span>B. Wang, Q. Peng, J. Chen, <B>Pan Gao</B>, A low-complexity error concealment algorithm for video transmission based on non-local means denoising, <B>Proc. IEEE Int. Conf. Visual Communications and Image Processing (VCIP 2016)</B>, Chengdu, Dec. 2016. &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">pdf</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">code</a></li>
+                <li><span style="font-size: 25px; font-weight: bold">· </span><B>Pan Gao</B>, Wei Xiang, Lijuan Zhang, Transmission distortion modeling for view synthesis prediction based 3-D video streaming, in <B>Proc. IEEE Int. Conf. Acoustics, Speech, and Signal Processing (ICASSP 2015)</B>, pp. 1448–1452, Brisbane, Australia, Apr. 2015. &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">pdf</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">code</a></li>
+                <li><span style="font-size: 25px; font-weight: bold">· </span><B>Pan Gao</B>, Wei Xiang, Modeling of packet-loss-induced distortion in 3-D synthesized views, in <B>Proc. IEEE Int. Conf. Visual Communications and Image Processing (VCIP 2015)</B>, Singapore, Dec. 2015. &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">pdf</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">code</a></li>
+            </ul>
+        </div>
+        <div class="content-more">
+            <div class="gradient"></div>
+            <label for="contTab" class="readmore">Learn More</label>
+        </div>
+    </div>
+
+    <!-- contact -->
+    <section class="wedo" id="contact">
+        <h3 class="w3_head mb-5">Get In Touch </h3>
+        <p class="banp mt-5"> Here are some methods to contact us!</p>
+        <div class="row mt-4">
+            <div class="col-lg-7 contact_grid_right">
+                <form action="#" method="post">
+                    <div class="row contact_top">
+                        <div class="col-sm-6">
+                            <input type="text" name="Name" placeholder="Name" required="">
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="email" name="Email" placeholder="Email" required="">
+                        </div>
+                    </div>
+
+                    <textarea name="Message" onfocus="this.value = '';"
+                              onblur="if (this.value == '') {this.value = 'Message...';}" required>Message...</textarea>
+                    <input type="submit" class="btn" value="Send Message">
+                </form>
+            </div>
+            <div class="col-lg-5 contact_grid_left">
+                <h3 class="w3_head mb-5">Locate Us </h3>
+                <ul class="footer-bottom-list">
+                    <li>
+                        <a href="#">Address: </a>
+                        <span> 江苏省南京市江宁区将军大道29号 </span>
+                    </li>
+                    <li>
+                        <a href="#">Email: </a>
+                        <span> XXX@XXX.com </span>
+                    </li>
+                    <li>
+                        <a href="#">Phone Number: </a>
+                        <span>+143 367 436 2049</span>
+                    </li>
+                    <li>
+                        <a href="#">Fax Number: </a>
+                        <span>+166 367 808 5055</span>
+                    </li>
+                    <li>
+                        <a href="#">Official Website: </a>
+                        <span>www.nuaa.edu.cn</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="cpy-right text-left">
+            <p>Copyright &copy; 2021.南京航空航天大学.I2ML.
+
+            </p>
+        </div>
+    </section>
+    <!-- //contact -->
+</div>
+
+
+</body>
+</html>
